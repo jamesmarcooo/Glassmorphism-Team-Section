@@ -65,15 +65,6 @@ section::after {
   backdrop-filter: blur(10px);
 }
 
-.container .card .content .imgBx {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 10px solid rgba(0, 0, 0, 0.25);
-}
-
 .container .card .content {
   position: relative;
   display: flex;
@@ -84,11 +75,6 @@ section::after {
   transition: 0.5s;
 }
 
-.container .card .content .imgBx {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
+.container .card:hover .content {
+  opacity: 1;
 }
