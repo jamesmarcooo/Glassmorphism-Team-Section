@@ -50,3 +50,25 @@ section::after {
   flex-wrap: wrap;
   margin: 40px 0;
 }
+
+.container .card {
+  position: relative;
+}
+
+.container .card .content .imgBx {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid rgba(0, 0, 0, 0.25);
+}
+
+.container .card .content .imgBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
