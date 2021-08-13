@@ -107,3 +107,9 @@ section::after {
   margin: 20px 0 10px;
   line-height: 1.1em;
 }
+
+.container .card .content .containerBx h3 span {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: initial;
+}
